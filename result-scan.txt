@@ -1,0 +1,467 @@
+
+Testing tp02_docker...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-SHADOW-306209
+  Introduced through: shadow/passwd@1:4.5-1ubuntu2.3, gnupg2/gnupg@2.2.4-1ubuntu1.6, shadow/login@1:4.5-1ubuntu2.3
+  From: shadow/passwd@1:4.5-1ubuntu2.3
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/dirmngr@2.2.4-1ubuntu1.6 > adduser@3.116ubuntu1 > shadow/passwd@1:4.5-1ubuntu2.3
+  From: shadow/login@1:4.5-1ubuntu2.3
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in python3.6/libpython3.6-minimal
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-PYTHON36-1075584
+  Introduced through: python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8, python3-defaults/libpython3-stdlib@3.6.7-1~18.04, python3.6@3.6.9-1~18.04ubuntu1.8, python3.6/libpython3.6-stdlib@3.6.9-1~18.04ubuntu1.8, python3.6/python3.6-minimal@3.6.9-1~18.04ubuntu1.8, python3-defaults/python3@3.6.7-1~18.04
+  From: python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8
+  From: python3-defaults/libpython3-stdlib@3.6.7-1~18.04 > python3.6/libpython3.6-stdlib@3.6.9-1~18.04ubuntu1.8 > python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8
+  From: python3.6@3.6.9-1~18.04ubuntu1.8 > python3.6/python3.6-minimal@3.6.9-1~18.04ubuntu1.8 > python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8
+  and 8 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in python3.6/libpython3.6-minimal
+  Description: Open Redirect
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-PYTHON36-2993117
+  Introduced through: python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8, python3-defaults/libpython3-stdlib@3.6.7-1~18.04, python3.6@3.6.9-1~18.04ubuntu1.8, python3.6/libpython3.6-stdlib@3.6.9-1~18.04ubuntu1.8, python3.6/python3.6-minimal@3.6.9-1~18.04ubuntu1.8, python3-defaults/python3@3.6.7-1~18.04
+  From: python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8
+  From: python3-defaults/libpython3-stdlib@3.6.7-1~18.04 > python3.6/libpython3.6-stdlib@3.6.9-1~18.04ubuntu1.8 > python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8
+  From: python3.6@3.6.9-1~18.04ubuntu1.8 > python3.6/python3.6-minimal@3.6.9-1~18.04ubuntu1.8 > python3.6/libpython3.6-minimal@3.6.9-1~18.04ubuntu1.8
+  and 8 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-PCRE3-452543
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-9ubuntu0.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in nodejs
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312678
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Low severity vulnerability found in nodejs
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312714
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Low severity vulnerability found in ncurses/libncursesw5
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NCURSES-1656319
+  Introduced through: ncurses/libncursesw5@6.1-1ubuntu1.18.04, procps@2:3.3.12-3ubuntu1.2, util-linux/fdisk@2.31.1-0.4ubuntu3.7, python2.7@2.7.17-1~18.04ubuntu1.8, python3-defaults/libpython3-stdlib@3.6.7-1~18.04, gnupg2/gnupg@2.2.4-1ubuntu1.6, meta-common-packages@meta, ncurses/libncurses5@6.1-1ubuntu1.18.04, ncurses/ncurses-base@6.1-1ubuntu1.18.04, ncurses/ncurses-bin@6.1-1ubuntu1.18.04
+  From: ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: procps@2:3.3.12-3ubuntu1.2 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: util-linux/fdisk@2.31.1-0.4ubuntu3.7 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  and 8 more...
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Low severity vulnerability found in ncurses/libncursesw5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NCURSES-2770344
+  Introduced through: ncurses/libncursesw5@6.1-1ubuntu1.18.04, procps@2:3.3.12-3ubuntu1.2, util-linux/fdisk@2.31.1-0.4ubuntu3.7, python2.7@2.7.17-1~18.04ubuntu1.8, python3-defaults/libpython3-stdlib@3.6.7-1~18.04, gnupg2/gnupg@2.2.4-1ubuntu1.6, meta-common-packages@meta, ncurses/libncurses5@6.1-1ubuntu1.18.04, ncurses/ncurses-base@6.1-1ubuntu1.18.04, ncurses/ncurses-bin@6.1-1ubuntu1.18.04
+  From: ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: procps@2:3.3.12-3ubuntu1.2 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: util-linux/fdisk@2.31.1-0.4ubuntu3.7 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  and 8 more...
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Low severity vulnerability found in ncurses/libncursesw5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NCURSES-481908
+  Introduced through: ncurses/libncursesw5@6.1-1ubuntu1.18.04, procps@2:3.3.12-3ubuntu1.2, util-linux/fdisk@2.31.1-0.4ubuntu3.7, python2.7@2.7.17-1~18.04ubuntu1.8, python3-defaults/libpython3-stdlib@3.6.7-1~18.04, gnupg2/gnupg@2.2.4-1ubuntu1.6, meta-common-packages@meta, ncurses/libncurses5@6.1-1ubuntu1.18.04, ncurses/ncurses-base@6.1-1ubuntu1.18.04, ncurses/ncurses-bin@6.1-1ubuntu1.18.04
+  From: ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: procps@2:3.3.12-3ubuntu1.2 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: util-linux/fdisk@2.31.1-0.4ubuntu3.7 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  and 8 more...
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Low severity vulnerability found in ncurses/libncursesw5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NCURSES-482343
+  Introduced through: ncurses/libncursesw5@6.1-1ubuntu1.18.04, procps@2:3.3.12-3ubuntu1.2, util-linux/fdisk@2.31.1-0.4ubuntu3.7, python2.7@2.7.17-1~18.04ubuntu1.8, python3-defaults/libpython3-stdlib@3.6.7-1~18.04, gnupg2/gnupg@2.2.4-1ubuntu1.6, meta-common-packages@meta, ncurses/libncurses5@6.1-1ubuntu1.18.04, ncurses/ncurses-base@6.1-1ubuntu1.18.04, ncurses/ncurses-bin@6.1-1ubuntu1.18.04
+  From: ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: procps@2:3.3.12-3ubuntu1.2 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  From: util-linux/fdisk@2.31.1-0.4ubuntu3.7 > ncurses/libncursesw5@6.1-1ubuntu1.18.04
+  and 8 more...
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Low severity vulnerability found in krb5/libkrb5support0
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-KRB5-459140
+  Introduced through: curl@7.58.0-2ubuntu3.20, krb5/krb5-locales@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libk5crypto3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5-3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  and 5 more...
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GNUTLS28-340583
+  Introduced through: gnutls28/libgnutls30@3.5.18-1ubuntu1.6, apt@1.6.14, gnupg2/gnupg@2.2.4-1ubuntu1.6, curl@7.58.0-2ubuntu3.20
+  From: gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  From: apt@1.6.14 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/dirmngr@2.2.4-1ubuntu1.6 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  and 2 more...
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: CVE-2022-3219
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GNUPG2-3035411
+  Introduced through: gnupg2/gpgv@2.2.4-1ubuntu1.6, apt@1.6.14, gnupg2/gnupg@2.2.4-1ubuntu1.6
+  From: gnupg2/gpgv@2.2.4-1ubuntu1.6
+  From: apt@1.6.14 > gnupg2/gpgv@2.2.4-1ubuntu1.6
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/gpgv@2.2.4-1ubuntu1.6
+  and 18 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in gmp/libgmp10
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GMP-1921285
+  Introduced through: gmp/libgmp10@2:6.1.2+dfsg-2, curl@7.58.0-2ubuntu3.20
+  From: gmp/libgmp10@2:6.1.2+dfsg-2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > rtmpdump/librtmp1@2.4+20151223.gitfa8646d.1-1 > gmp/libgmp10@2:6.1.2+dfsg-2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > openldap/libldap-2.4-2@2.4.45+dfsg-1ubuntu1.11 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6 > gmp/libgmp10@2:6.1.2+dfsg-2
+  and 1 more...
+  Image layer: 'apt-get install curl gnupg -yq'
+  Fixed in: 2:6.1.2+dfsg-2ubuntu0.1
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-1297556
+  Introduced through: glibc/libc-bin@2.27-3ubuntu1.6, meta-common-packages@meta
+  From: glibc/libc-bin@2.27-3ubuntu1.6
+  From: meta-common-packages@meta > glibc/libc6@2.27-3ubuntu1.6
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-2415107
+  Introduced through: glibc/libc-bin@2.27-3ubuntu1.6, meta-common-packages@meta
+  From: glibc/libc-bin@2.27-3ubuntu1.6
+  From: meta-common-packages@meta > glibc/libc6@2.27-3ubuntu1.6
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Improper Data Handling
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-345677
+  Introduced through: glibc/libc-bin@2.27-3ubuntu1.6, meta-common-packages@meta
+  From: glibc/libc-bin@2.27-3ubuntu1.6
+  From: meta-common-packages@meta > glibc/libc6@2.27-3ubuntu1.6
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Improper Data Handling
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-356503
+  Introduced through: glibc/libc-bin@2.27-3ubuntu1.6, meta-common-packages@meta
+  From: glibc/libc-bin@2.27-3ubuntu1.6
+  From: meta-common-packages@meta > glibc/libc6@2.27-3ubuntu1.6
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-COREUTILS-317469
+  Introduced through: coreutils@8.28-1ubuntu1
+  From: coreutils@8.28-1ubuntu1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in perl/perl-base
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-PERL-1930908
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > perl/perl-base@5.26.1-6ubuntu0.5
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in nodejs
+  Description: OS Command Injection
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-2948909
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312648
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312656
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312670
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312698
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: Authentication Bypass
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312753
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: CVE-2018-12116
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-312767
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nodejs
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NODEJS-451043
+  Introduced through: nodejs@10.24.1-1nodesource1
+  From: nodejs@10.24.1-1nodesource1
+  Image layer: 'apt-get install nodejs -yq'
+
+✗ Medium severity vulnerability found in nghttp2/libnghttp2-14
+  Description: CVE-2019-9513
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NGHTTP2-459190
+  Introduced through: curl@7.58.0-2ubuntu3.20
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > nghttp2/libnghttp2-14@1.30.0-1ubuntu1
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Medium severity vulnerability found in nghttp2/libnghttp2-14
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-NGHTTP2-459213
+  Introduced through: curl@7.58.0-2ubuntu3.20
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > nghttp2/libnghttp2-14@1.30.0-1ubuntu1
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Medium severity vulnerability found in krb5/libkrb5support0
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-KRB5-1533539
+  Introduced through: curl@7.58.0-2ubuntu3.20, krb5/krb5-locales@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libk5crypto3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5-3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  and 5 more...
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Medium severity vulnerability found in krb5/libkrb5support0
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-KRB5-1570245
+  Introduced through: curl@7.58.0-2ubuntu3.20, krb5/krb5-locales@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libk5crypto3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5-3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  and 5 more...
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Medium severity vulnerability found in krb5/libkrb5support0
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-KRB5-396230
+  Introduced through: curl@7.58.0-2ubuntu3.20, krb5/krb5-locales@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libk5crypto3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  From: curl@7.58.0-2ubuntu3.20 > curl/libcurl4@7.58.0-2ubuntu3.20 > krb5/libgssapi-krb5-2@1.16-2ubuntu0.2 > krb5/libkrb5-3@1.16-2ubuntu0.2 > krb5/libkrb5support0@1.16-2ubuntu0.2
+  and 5 more...
+  Image layer: 'apt-get install curl gnupg -yq'
+
+✗ Medium severity vulnerability found in gcc-8/libstdc++6
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-UBUNTU1804-GCC8-572149
+  Introduced through: gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04, apt/libapt-pkg5.0@1.6.14, apt@1.6.14, nodejs@10.24.1-1nodesource1, meta-common-packages@meta
+  From: gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04
+  From: apt/libapt-pkg5.0@1.6.14 > gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04
+  From: apt@1.6.14 > gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04
+  and 3 more...
+  Image layer: 'apt-get install nodejs -yq'
+
+------------ Detected 17 vulnerabilities for node@10.24.1 ------------ 
+
+
+✗ Low severity vulnerability found in node
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1540539
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 16.6.2, 14.17.5, 12.22.5
+
+✗ Low severity vulnerability found in node
+  Description: Prototype Pollution
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2332186
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1540538
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 16.6.2, 14.17.5, 12.22.5
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1731310
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 12.22.7, 14.18.1, 16.11.1
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1731312
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 12.22.7, 14.18.1, 16.11.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2332185
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2332191
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Handling of URL Encoding
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2332192
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: DNS Rebinding
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2946423
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2946427
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2946428
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2946723
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: DLL Hijacking
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2946727
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-2946729
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ High severity vulnerability found in node
+  Description: Privilege Escalation
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1315789
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 16.4.1, 14.17.2, 12.22.2
+
+✗ High severity vulnerability found in node
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1315790
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 16.4.1, 14.17.2, 12.22.2
+
+✗ High severity vulnerability found in node
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-UPSTREAM-NODE-1540540
+  Introduced through: node@10.24.1
+  From: node@10.24.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 16.6.2, 14.17.5, 12.22.5
+
+Package manager:   deb
+Project name:      docker-image|tp02_docker
+Docker image:      tp02_docker
+Platform:          linux/amd64
+Base image:        ubuntu:18.04
+
+Tested 160 dependencies for known vulnerabilities, found 51 vulnerabilities.
+
+Base Image    Vulnerabilities  Severity
+ubuntu:18.04  16               0 critical, 0 high, 2 medium, 14 low
+
+Recommendations for base image upgrade:
+
+Major upgrades
+Base Image     Vulnerabilities  Severity
+ubuntu:latest  9                0 critical, 0 high, 2 medium, 7 low
+
+
+For more free scans that keep your images secure, sign up to Snyk at https://dockr.ly/3ePqVcp
+
+-------------------------------------------------------
+
+Testing tp02_docker...
+
+Package manager:   npm
+Target file:       \app\package.json
+Project name:      wik-dps-tp01
+Docker image:      tp02_docker
+
+✔ Tested tp02_docker for known vulnerabilities, no vulnerable paths found.
+
+For more free scans that keep your images secure, sign up to Snyk at https://dockr.ly/3ePqVcp
+
+
+Tested 2 projects, 1 contained vulnerable paths.
+
+
+
